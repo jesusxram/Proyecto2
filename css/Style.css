@@ -1,0 +1,159 @@
+
+  
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.barra {
+    background-color: rgb(138, 147, 190); /* Color de fondo de la barra de temas */
+    padding: 10px;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; 
+    height: 100%;
+    background-color: #333;
+    text-align: center;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: bold;
+   
+}
+
+.Adentro {
+    margin-left: 200px; 
+    height: 100%;
+    background-color: #f2f2f2; 
+    padding: 20px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.imglogo{
+    text-align: center;
+    padding: 35px;
+   
+    
+
+}
+.listah {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.listah li {
+    display: inline; 
+    margin-right: 09px; 
+    padding-left: 85px;
+    position: relative;
+    
+    
+}
+.titulob{
+    margin-right: 10px; 
+    padding-left: 100px;
+    align-self: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carru {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+img {
+    width: 40%;
+}
+.bio {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.bio img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.bio p {
+    margin-top: 0;
+    padding-left: 0px;
+}
+
+.bio h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    text-align: center;
+    width: 100%; 
+}
+.bio img:hover {
+    transform: scale(1.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+a {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: white; 
+    cursor: pointer; 
+}
